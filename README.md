@@ -8,7 +8,14 @@ Cadastro da empresa
 
 Cadastro do usuário
 
-#Tecnologias envolvidas:
+# Tecnologias envolvidas:
+
 JSP
 
 Postgres
+
+# Documentação:
+
+Análise de requisitos.doc
+
+
