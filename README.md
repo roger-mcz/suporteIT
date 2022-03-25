@@ -16,7 +16,8 @@ Postgres
 
 # Documentação:
 
-Visao geral do sistema.doc
+Visao geral do sistema.txt
+
 Modelo conceitual.doc
 
 
