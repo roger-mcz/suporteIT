@@ -1,0 +1,2 @@
+O sitema deve permitir o cadastro de uma empresa ou pessoa física que atuará como prestador de serviços. Também será permitido cadastrar empresas ou 
+pessoas físicas como cliente.
