@@ -16,6 +16,6 @@ Postgres
 
 # Documentação:
 
-Análise de requisitos.doc
+Modelo conceitual.doc
 
 
