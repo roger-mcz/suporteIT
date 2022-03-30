@@ -1,2 +1,20 @@
-O sitema deve permitir o cadastro de uma empresa ou pessoa física que atuará como prestador de serviços. Também será permitido cadastrar empresas ou 
-pessoas físicas como cliente.
+O sistema tem o propósito de registrar as solicitações de atendimento feitas pelo cliente e ter os atendimentos 
+registrados pelo prestador de serviços.
+
+O sitema deve permitir o cadastro de uma empresa ou pessoa física que atuará como prestador de serviços.
+Também será permitido cadastrar empresas ou pessoas físicas como cliente.
+
+O sistema deve registrar uma solicitação que é feita pelo cliente, essa solicitaçao pode ser criada 
+pelo cliente ou pelo prestador de serviços.
+
+No momento da abertura da solicitação, o cliente/prestador de serviços acessa o sistema e preencher os campos 
+e em seguida confirma a abertura da solicitação.
+
+Uma vez aberto o chamado, o sistema preenche a lista de chamados abertos ordenada 
+por data e hora de criação e com o status: Aguardando atendimento.
+
+O prestador de serviço deve ter acesso a lista de chamados para poder selecionar e realizar o atendimento. 
+A partir do momento em que o chamado iniciar o tendimento, o status do mesmo deve ser alterado para em atendimento.
+
+ao concluir o chamado, o mesmo deve solicitar a tarefa realizada e oferecer a opção de concluir / cancelar. 
+Ao concluir, o sistema deve enviar um email p/ o solicitante com o resumo das ações realizadas.
