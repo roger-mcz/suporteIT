@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="project2" version="4">
+  <OBJECT>
+    <ID name="project2" mc="Standard.Package" uid="91ac5c71-10c9-4119-b8a7-aeea44ffeb77"/>
+    <PID name="Project2" mc="Standard.Project" uid="39e6fc2f-4ed6-4b24-945c-90b43113ae00"/>
+    <ATTRIBUTES>
+      <ATT name="IsInstantiable">false</ATT>
+      <ATT name="IsAbstract">false</ATT>
+      <ATT name="IsLeaf">false</ATT>
+      <ATT name="IsRoot">false</ATT>
+      <ATT name="Visibility">Public</ATT>
+      <ATT name="Name"><![CDATA[project2]]></ATT>
+      <ATT name="status">1970354901745664</ATT>
+    </ATTRIBUTES>
+    <DEPENDENCIES>
+      <COMP relation="OwnedElement">
+        <COMPID name="Pessoa" mc="Standard.Class" uid="a13e18dc-bef1-45a2-af32-c8092812cef1"/>
+        <COMPID name="Endereco" mc="Standard.Class" uid="abaff4ad-d3ce-4340-b79f-2d4cd6c0fb65"/>
+        <COMPID name="PessoaFisica" mc="Standard.Class" uid="90f98c43-809b-4dcb-948f-5c45f8ce5185"/>
+        <COMPID name="PessoaJuridica" mc="Standard.Class" uid="ace9d3b9-b5be-42b8-9695-4d6c0377dce5"/>
+      </COMP>
+      <COMP relation="Product">
+        <COMPID name="project2 Class diagram" mc="Standard.ClassDiagram" uid="def745dc-a391-4c64-8f3f-5ccf363cf091"/>
+      </COMP>
+    </DEPENDENCIES>
+  </OBJECT>
+</EXT>
