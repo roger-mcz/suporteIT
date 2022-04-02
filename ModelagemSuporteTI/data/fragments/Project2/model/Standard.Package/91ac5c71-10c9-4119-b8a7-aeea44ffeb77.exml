@@ -14,13 +14,27 @@
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedElement">
-        <COMPID name="Pessoa" mc="Standard.Class" uid="a13e18dc-bef1-45a2-af32-c8092812cef1"/>
-        <COMPID name="Endereco" mc="Standard.Class" uid="abaff4ad-d3ce-4340-b79f-2d4cd6c0fb65"/>
-        <COMPID name="PessoaFisica" mc="Standard.Class" uid="90f98c43-809b-4dcb-948f-5c45f8ce5185"/>
-        <COMPID name="PessoaJuridica" mc="Standard.Class" uid="ace9d3b9-b5be-42b8-9695-4d6c0377dce5"/>
+        <COMPID name="Peaple" mc="Standard.Class" uid="a13e18dc-bef1-45a2-af32-c8092812cef1"/>
+        <COMPID name="Address " mc="Standard.Class" uid="abaff4ad-d3ce-4340-b79f-2d4cd6c0fb65"/>
+        <COMPID name="physicalPerson" mc="Standard.Class" uid="90f98c43-809b-4dcb-948f-5c45f8ce5185"/>
+        <COMPID name="legalPerson" mc="Standard.Class" uid="ace9d3b9-b5be-42b8-9695-4d6c0377dce5"/>
+        <COMPID name="Cliente" mc="Standard.Actor" uid="d82b160e-32e1-4900-95d1-b3d29f63251c"/>
+        <COMPID name="iniciar uma solicitação" mc="Standard.UseCase" uid="e556e163-1613-4750-b941-0552bf742940"/>
+        <COMPID name="abrir chamado" mc="Standard.UseCase" uid="79f00f5c-1a49-432c-a0d5-32c0fde49531"/>
+        <COMPID name="atender chamado" mc="Standard.UseCase" uid="2267b45b-9712-4a20-aefc-24b2140189c0"/>
+        <COMPID name="finalizar atendimento" mc="Standard.UseCase" uid="3939e650-840e-4e05-ba32-6cb62d2a88e2"/>
+        <COMPID name="Cancelar solicitação" mc="Standard.UseCase" uid="83ba47a9-e698-4bc4-ad83-f73dad233c37"/>
+        <COMPID name="IPeaple" mc="Standard.Interface" uid="32115d17-3ea2-4678-ac8e-e511e5ae30c4"/>
+        <COMPID name="Service" mc="Standard.Class" uid="33f98a3f-a540-4570-94c2-a3644189cc41"/>
+        <COMPID name="prestador de serviço" mc="Standard.Actor" uid="98617c33-ec06-4786-b377-fcfe846bb21d"/>
+        <COMPID name="categorizar chamado" mc="Standard.UseCase" uid="fffe5267-0005-4459-8ff2-887881cd7757"/>
+        <COMPID name="ServiceCategory" mc="Standard.Class" uid="f9ad61a2-c9ee-4289-bb26-767e5b280db1"/>
+        <COMPID name="Cliente" mc="Standard.Class" uid="29e26cc5-b5ab-4f48-acc1-1c82ebf9d041"/>
+        <COMPID name="Analista" mc="Standard.Class" uid="2e90ccb6-dc14-462b-91fc-4dcec4ec9997"/>
       </COMP>
       <COMP relation="Product">
         <COMPID name="project2 Class diagram" mc="Standard.ClassDiagram" uid="def745dc-a391-4c64-8f3f-5ccf363cf091"/>
+        <COMPID name="project2 Use Case diagram" mc="Standard.UseCaseDiagram" uid="fa07d520-8611-400c-8fe0-7a5bbcbd4c63"/>
       </COMP>
     </DEPENDENCIES>
   </OBJECT>

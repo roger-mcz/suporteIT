@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
-<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="physicalPerson" version="4">
+<!--GENERATED FILE, PLEASE DO NOT EDIT!!!--><EXT object="ServiceCategory" version="4">
   <OBJECT>
-    <ID name="physicalPerson" mc="Standard.Class" uid="90f98c43-809b-4dcb-948f-5c45f8ce5185"/>
+    <ID name="ServiceCategory" mc="Standard.Class" uid="f9ad61a2-c9ee-4289-bb26-767e5b280db1"/>
     <PID name="project2" mc="Standard.Package" uid="91ac5c71-10c9-4119-b8a7-aeea44ffeb77"/>
     <ATTRIBUTES>
       <ATT name="IsActive">false</ATT>
@@ -11,13 +11,13 @@
       <ATT name="IsLeaf">false</ATT>
       <ATT name="IsRoot">false</ATT>
       <ATT name="Visibility">Public</ATT>
-      <ATT name="Name"><![CDATA[physicalPerson]]></ATT>
+      <ATT name="Name"><![CDATA[ServiceCategory]]></ATT>
       <ATT name="status">1970354901745664</ATT>
     </ATTRIBUTES>
     <DEPENDENCIES>
       <COMP relation="OwnedAttribute">
         <OBJECT>
-          <ID name="CPF" mc="Standard.Attribute" uid="874b19d8-14c5-4079-89fe-5b11cbadd154"/>
+          <ID name="id" mc="Standard.Attribute" uid="d9c4d0a3-3eab-4524-a646-939d1260e800"/>
           <ATTRIBUTES>
             <ATT name="TypeConstraint"></ATT>
             <ATT name="Value"></ATT>
@@ -31,27 +31,36 @@
             <ATT name="Visibility">Private</ATT>
             <ATT name="IsClass">false</ATT>
             <ATT name="IsAbstract">false</ATT>
-            <ATT name="Name"><![CDATA[CPF]]></ATT>
+            <ATT name="Name"><![CDATA[id]]></ATT>
+            <ATT name="status">1970354901745664</ATT>
+          </ATTRIBUTES>
+          <DEPENDENCIES>
+            <LINK relation="Type">
+              <FOREIGNID name="long" mc="Standard.DataType" uid="00000004-0000-0011-0000-000000000000"/>
+            </LINK>
+          </DEPENDENCIES>
+        </OBJECT>
+        <OBJECT>
+          <ID name="name" mc="Standard.Attribute" uid="cf40e4ec-8f33-4fbd-a7c0-39c8ab667081"/>
+          <ATTRIBUTES>
+            <ATT name="TypeConstraint"></ATT>
+            <ATT name="Value"></ATT>
+            <ATT name="TargetIsClass">false</ATT>
+            <ATT name="Changeable">ReadWrite</ATT>
+            <ATT name="IsDerived">false</ATT>
+            <ATT name="IsOrdered">false</ATT>
+            <ATT name="IsUnique">false</ATT>
+            <ATT name="MultiplicityMin"><![CDATA[1]]></ATT>
+            <ATT name="MultiplicityMax"><![CDATA[1]]></ATT>
+            <ATT name="Visibility">Private</ATT>
+            <ATT name="IsClass">false</ATT>
+            <ATT name="IsAbstract">false</ATT>
+            <ATT name="Name"><![CDATA[name]]></ATT>
             <ATT name="status">1970354901745664</ATT>
           </ATTRIBUTES>
           <DEPENDENCIES>
             <LINK relation="Type">
               <FOREIGNID name="string" mc="Standard.DataType" uid="00000004-0000-000d-0000-000000000000"/>
-            </LINK>
-          </DEPENDENCIES>
-        </OBJECT>
-      </COMP>
-      <COMP relation="Parent">
-        <OBJECT>
-          <ID name="Generalization" mc="Standard.Generalization" uid="d46062a2-f279-48cb-9f16-fbd18a691867"/>
-          <ATTRIBUTES>
-            <ATT name="Discriminator"></ATT>
-            <ATT name="Name"><![CDATA[Generalization]]></ATT>
-            <ATT name="status">1970354901745664</ATT>
-          </ATTRIBUTES>
-          <DEPENDENCIES>
-            <LINK relation="SuperType">
-              <ID name="Peaple" mc="Standard.Class" uid="a13e18dc-bef1-45a2-af32-c8092812cef1"/>
             </LINK>
           </DEPENDENCIES>
         </OBJECT>
