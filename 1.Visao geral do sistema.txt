@@ -4,11 +4,10 @@ registrados pelo prestador de serviços.
 O sitema deve permitir o cadastro de uma empresa ou pessoa física que atuará como prestador de serviços.
 Também será permitido cadastrar empresas ou pessoas físicas como cliente.
 
-O sistema deve registrar uma solicitação que é feita pelo cliente, essa solicitaçao pode ser criada 
-pelo cliente ou pelo prestador de serviços.
+O sistema deve registrar uma solicitação que é feita pelo cliente ao entrar em contato com o prestador de serviços.
 
-No momento da abertura da solicitação, o cliente/prestador de serviços acessa o sistema e preencher os campos 
-e em seguida confirma a abertura da solicitação.
+No momento da abertura da solicitação, o prestador de serviços acessa o sistema e preenche os campos, categoriza 
+e em seguida confirma a abertura da solicitação informando o cliente o nomero do chamado e tempo de atendimento.
 
 Uma vez aberto o chamado, o sistema preenche a lista de chamados abertos ordenada 
 por data e hora de criação e com o status: Aguardando atendimento.
